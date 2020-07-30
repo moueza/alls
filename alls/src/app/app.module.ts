@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PeintureMuraleMouezaPeterImageComponent } from './peinture-murale-moueza-peter-image/peinture-murale-moueza-peter-image.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PeintureMuraleMouezaPeterImageComponent
   ],
   imports: [
     BrowserModule,
