@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "alls-authenth"
+  },
+  "targets": {
+    "alls-authenth": {
+      "hosting": {
+        "alls": [
+          "alls-authenth"
+        ]
+      }
+    }
   }
 }
