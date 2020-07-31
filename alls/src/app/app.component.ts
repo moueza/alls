@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PeintureMuraleMouezaPeterImageComponent } from './peinture-murale-moueza-peter-image/peinture-murale-moueza-peter-image.component';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,7 @@ export class AppComponent {
 
   updateValue(){
     this.value='value of string';
+    //peinture-murale-moueza-peter-image
   }
 
 
