@@ -2,9 +2,13 @@
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-  v03 <br>
+  v04 <br>
   Peter from src/app/app.component.html
+  <br>
   
+  <div class="blue underline" (click)="updateValue()">Peinture murale</div>
+  <div (click)="nothing()">Maillé Brézé</div>
+  Peinture murale value = {{value}}
 </div>
 
 <router-outlet></router-outlet>
