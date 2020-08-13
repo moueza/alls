@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+
+  <url>
+    <loc>https://moueza.github.io/architecture.html</loc>
+
+    
+    <lastmod>2019-07-17</lastmod>
+    <changefreq>daily</changefreq>
+
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://moueza.github.io/maquette-nantes-malakoff-programme-immobilier-eriol.html</loc>
+
+    <image:image>
+      <image:loc>https://moueza.github.io/programme-immobilier-nantes-malakoff-eriol-moueza.jpg</image:loc>
+      <image:caption>Image du programme immobilier Nantes Malakoff Eriol</image:caption> 
+    </image:image>
+
+    <lastmod>2019-07-17</lastmod>
+    <changefreq>daily</changefreq>
+
+    <priority>0.80</priority>
+  </url>
+  
+  
+  
+  
+  <url>
+    <loc>https://moueza.github.io/dimensions-terrain-tennis-nantes-peter-moueza.html</loc>
+
+    <image:image>
+      <image:loc>https://moueza.github.io/dimensions-terrain-tennis-nantes-peter-moueza-SIMPLE-vs-DOUBLE-BIAIS.png</image:loc>
+      <image:caption>Schéma des principales dimensions ou cotes d un terrain de tennis</image:caption> 
+    </image:image>
+
+    <lastmod>2019-07-17</lastmod>
+    <changefreq>daily</changefreq>
+
+    <priority>0.79</priority>
+  </url>
+  
+  
+  
+  <url>
+    <loc>https://moueza.github.io/amp/programme-electoral-elections-peter-moueza.html</loc>
+
+    
+
+    <lastmod>2020-05-25</lastmod>
+    <changefreq>daily</changefreq>
+
+    <priority>0.90</priority>
+  </url>
+
+
+
+
+
+
+
+  <url>
+    <loc>https://moueza.github.io/</loc>
+    <loc>https://moueza.github.io/index.html</loc>
+
+    
+
+    <lastmod>2020-07-28</lastmod>
+    <changefreq>daily</changefreq>
+
+    <priority>0.95</priority>
+  </url>
+</urlset>
+
