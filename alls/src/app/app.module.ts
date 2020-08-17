@@ -9,6 +9,7 @@ import { MailleBrezeBateauNantesMouezaComponent } from './maille-breze-bateau-na
 import { BelemBateauNantesMouezaComponent } from './belem-bateau-nantes-moueza/belem-bateau-nantes-moueza.component';
 import { PitchDEntretienPoleEmploiVSIMouezaComponent } from './pitch-d-entretien-pole-emploi-vsi-moueza/pitch-d-entretien-pole-emploi-vsi-moueza.component';
 import { MethodeStarPdfPoleEmploiVSIMouezaPeterComponent } from './methode-star-pdf-pole-emploi-vsi-moueza-peter/methode-star-pdf-pole-emploi-vsi-moueza-peter.component';
+import { TennisTournoiLe20200816dtcTmurComponent } from './tennis-tournoi-le20200816dtc-tmur/tennis-tournoi-le20200816dtc-tmur.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MethodeStarPdfPoleEmploiVSIMouezaPeterComponent } from './methode-star-
     MailleBrezeBateauNantesMouezaComponent,
     BelemBateauNantesMouezaComponent,
     PitchDEntretienPoleEmploiVSIMouezaComponent,
-    MethodeStarPdfPoleEmploiVSIMouezaPeterComponent
+    MethodeStarPdfPoleEmploiVSIMouezaPeterComponent,
+    TennisTournoiLe20200816dtcTmurComponent
   ],
   imports: [
     BrowserModule,
