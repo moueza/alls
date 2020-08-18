@@ -10,6 +10,10 @@ import { BelemBateauNantesMouezaComponent } from './belem-bateau-nantes-moueza/b
 import { PitchDEntretienPoleEmploiVSIMouezaComponent } from './pitch-d-entretien-pole-emploi-vsi-moueza/pitch-d-entretien-pole-emploi-vsi-moueza.component';
 import { MethodeStarPdfPoleEmploiVSIMouezaPeterComponent } from './methode-star-pdf-pole-emploi-vsi-moueza-peter/methode-star-pdf-pole-emploi-vsi-moueza-peter.component';
 import { TennisTournoiLe20200816dtcTmurComponent } from './tennis-tournoi-le20200816dtc-tmur/tennis-tournoi-le20200816dtc-tmur.component';
+import { ArbitrageComponent } from './arbitrage/arbitrage.component';
+import { ChampionnatTennis2020a2021tmurComponent } from './championnat-tennis2020a2021tmur/championnat-tennis2020a2021tmur.component';
+
+import { TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent } from './tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza/tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,12 @@ import { TennisTournoiLe20200816dtcTmurComponent } from './tennis-tournoi-le2020
     BelemBateauNantesMouezaComponent,
     PitchDEntretienPoleEmploiVSIMouezaComponent,
     MethodeStarPdfPoleEmploiVSIMouezaPeterComponent,
-    TennisTournoiLe20200816dtcTmurComponent
+    TennisTournoiLe20200816dtcTmurComponent,
+    ArbitrageComponent,
+    ChampionnatTennis2020a2021tmurComponent,
+    
+   
+    TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent
   ],
   imports: [
     BrowserModule,

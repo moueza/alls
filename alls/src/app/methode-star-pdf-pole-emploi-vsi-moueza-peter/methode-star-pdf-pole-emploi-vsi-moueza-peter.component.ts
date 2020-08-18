@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './methode-star-pdf-pole-emploi-vsi-moueza-peter.component.html',
   styleUrls: ['./methode-star-pdf-pole-emploi-vsi-moueza-peter.component.scss']
 })
-export class MethodeStarPdfPoleEmploiVSIMouezaPeterComponent implements OnInit {
+export class  MethodeStarPdfPoleEmploiVSIMouezaPeterComponent implements OnInit {
 
   constructor() { }
 
