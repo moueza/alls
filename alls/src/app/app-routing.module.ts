@@ -21,8 +21,10 @@ import { TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent } from './tennis
 
 import { JournalPublicComponent } from './journal-public/journal-public.component';
 
+import { IndexMoiComponent } from './index-moi/index-moi.component';
 
-const routes: Routes = [
+const routes: Routes = [	{ path: '', component: IndexMoiComponent },
+				
 			{ path: 'peinturemurale', component: PeintureMuraleMouezaPeterImageComponent },
 
 			{ path: 'pitchDentretien', component: PitchDEntretienPoleEmploiVSIMouezaComponent },

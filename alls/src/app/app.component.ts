@@ -8,15 +8,6 @@ import { PeintureMuraleMouezaPeterImageComponent } from './peinture-murale-mouez
       })
 export class AppComponent {
   title = 'alls';
-  value='';
+ 
 
-  updateValue(){
-    this.value='value of string';
-    //peinture-murale-moueza-peter-image
-  }
-
-
-  nothing(){
-   
-  }
 }

@@ -15,6 +15,7 @@ import { ChampionnatTennis2020a2021tmurComponent } from './championnat-tennis202
 
 import { TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent } from './tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza/tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza.component';
 import { JournalPublicComponent } from './journal-public/journal-public.component';
+import { IndexMoiComponent } from './index-moi/index-moi.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,10 @@ import { JournalPublicComponent } from './journal-public/journal-public.componen
     TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent,
     
    
-    JournalPublicComponent
+    JournalPublicComponent,
+    
+   
+    IndexMoiComponent
   ],
   imports: [
     BrowserModule,

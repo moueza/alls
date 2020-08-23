@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-index-moi',
+  templateUrl: './index-moi.component.html',
+  styleUrls: ['./index-moi.component.scss']
+})
+export class IndexMoiComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
