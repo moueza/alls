@@ -14,6 +14,7 @@ import { ArbitrageComponent } from './arbitrage/arbitrage.component';
 import { ChampionnatTennis2020a2021tmurComponent } from './championnat-tennis2020a2021tmur/championnat-tennis2020a2021tmur.component';
 
 import { TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent } from './tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza/tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza.component';
+import { JournalPublicComponent } from './journal-public/journal-public.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,10 @@ import { TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent } from './tennis
     ChampionnatTennis2020a2021tmurComponent,
     
    
-    TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent
+    TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent,
+    
+   
+    JournalPublicComponent
   ],
   imports: [
     BrowserModule,

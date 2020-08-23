@@ -17,6 +17,11 @@ import { ChampionnatTennis2020a2021tmurComponent } from './championnat-tennis202
 
 import { TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent } from './tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza/tennis-tournoi-le20200920dtc-tmur-dtcnantes-moueza.component';
 
+
+
+import { JournalPublicComponent } from './journal-public/journal-public.component';
+
+
 const routes: Routes = [
 			{ path: 'peinturemurale', component: PeintureMuraleMouezaPeterImageComponent },
 
@@ -27,7 +32,9 @@ const routes: Routes = [
 			{ path: 'tennisLe20200816', component: TennisTournoiLe20200816dtcTmurComponent },
 
 
-			{ path: 'arbitrage', component: ArbitrageComponent },			
+			{ path: 'arbitrage', component: ArbitrageComponent },
+			
+				{ path: 'journal', component: JournalPublicComponent },
 ];
 
 @NgModule({
