@@ -22,6 +22,11 @@ import { TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent } from './tennis
 import { JournalPublicComponent } from './journal-public/journal-public.component';
 
 import { IndexMoiComponent } from './index-moi/index-moi.component';
+import { DiversComponent } from './divers/divers.component';
+
+import { SamsungComponent } from './samsung/samsung.component';
+
+
 
 const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 				
@@ -37,6 +42,9 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 			{ path: 'arbitrage', component: ArbitrageComponent },
 			
 				{ path: 'journal', component: JournalPublicComponent },
+					{ path: 'misc', component: DiversComponent },
+
+					{ path: 'samsung', component: SamsungComponent },
 ];
 
 @NgModule({

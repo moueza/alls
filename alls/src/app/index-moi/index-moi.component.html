@@ -1,37 +1,43 @@
 
 <!-- Toolbar -->
 <div class="toolbar" role="banner">
-  v09 <br>
-  Peter from src/app/app.component.html
+  v12<br>
+ 
   <br>
   
-  <div class="blue underline" (click)="updateValue()">Peinture murale</div>
+  <div class="blue underline" (click)="updateValue()"> {{value}}</div>
+
+    <div (click)="nothing()">Belem moi 1</div>
+  <div (click)="nothing()">Belem RDV de l'Erdre</div>
+
   <div (click)="nothing()">Maillé Brézé</div>
 
 
-  Peinture murale value = {{value}}
+
 
   <!--a [title]="product.name + ' details'">
       {{ product.name }}
-   </a-->
+      </a-->
 
-   <a [title]="this.title"  routerLink="/peinturemurale">Peinture murale</a>
+  <a [title]="this.title"  routerLink="/peinturemurale">Peinture murale</a>
 
-<br>
-   
-   <a [title]="this.title"  routerLink="/pitchDentretien">Pitch D Entretien Pole Emploi VSI Moueza</a>
+  <br>
+  
+  <a [title]="this.title"  routerLink="/pitchDentretien">Pitch D Entretien Pole Emploi VSI Moueza</a>
 
 
 
-   
+  
   
 
-     <a [title]="this.title"  routerLink="/star">Methode STAR  PDF Pole Emploi VSI Moueza Peter S.T.A.R.</a>
+  <br>  <a [title]="this.title"  routerLink="/star">Methode STAR  PDF Pole Emploi VSI Moueza Peter S.T.A.R.</a>
 
 
- <a [title]="this.title"  routerLink="/tennisLe20200816">tennis Le 2020 08 16 DTC Tmur</a>
+   <br> <a [title]="this.title"  routerLink="/tennisLe20200816">tennis Le 2020 08 16 DTC Tmur</a>
 
-    <a [title]="this.title"  routerLink="/peinturemurale">Arbitrage tennis moueza</a>
+   <br> <a [title]="this.title"  routerLink="/peinturemurale">Arbitrage tennis moueza</a>
 
+   <br> <a [title]="this.title"  routerLink="/divers">Divers</a>
+   <br><a [title]="this.title"  routerLink="/samsung">Samsung</a>
   <!--footer-component>  </footer-component-->
-</div>
+	</div>
