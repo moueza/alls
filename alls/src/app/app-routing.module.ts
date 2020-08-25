@@ -37,7 +37,7 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 			{ path: 'star', component: MethodeStarPdfPoleEmploiVSIMouezaPeterComponent },
 
 			{ path: 'tennisLe20200816', component: TennisTournoiLe20200816dtcTmurComponent },
-
+			{ path: 'tennisLe20200920', component: TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent },
 
 			{ path: 'arbitrage', component: ArbitrageComponent },
 			
