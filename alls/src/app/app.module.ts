@@ -19,6 +19,9 @@ import { IndexMoiComponent } from './index-moi/index-moi.component';
 import { DiversComponent } from './divers/divers.component';
 import { SamsungComponent } from './samsung/samsung.component';
 
+
+//import {GoogleAnalyticsService} from '../google-analytics.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -49,9 +52,12 @@ import { SamsungComponent } from './samsung/samsung.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,  
   ],
+ //https://medium.com/madhash/how-to-properly-add-google-analytics-tracking-to-your-angular-web-app-bc7750713c9e
+ //providers: [GoogleAnalyticsService],
   providers: [],
-  bootstrap: [AppComponent]
+
+bootstrap: [AppComponent]
 })
 export class AppModule { }
