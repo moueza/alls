@@ -45,6 +45,10 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 					{ path: 'misc', component: DiversComponent },
 
 					{ path: 'samsung', component: SamsungComponent },
+
+				{ path: 'championnat-2020-2021-tennis-Nantes-OVS-Peter-MOUEZA', component: ChampionnatTennis2020a2021tmurComponent },
+
+
 ];
 
 @NgModule({
