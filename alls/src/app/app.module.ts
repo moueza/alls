@@ -18,6 +18,7 @@ import { JournalPublicComponent } from './journal-public/journal-public.componen
 import { IndexMoiComponent } from './index-moi/index-moi.component';
 import { DiversComponent } from './divers/divers.component';
 import { SamsungComponent } from './samsung/samsung.component';
+import { KizombaNantesDanseMouezaPeterComponent } from './kizomba-nantes-danse-moueza-peter/kizomba-nantes-danse-moueza-peter.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -48,7 +49,10 @@ import { SamsungComponent } from './samsung/samsung.component';
     DiversComponent,
     
    
-    SamsungComponent
+    SamsungComponent,
+    
+   
+    KizombaNantesDanseMouezaPeterComponent
   ],
   imports: [
     BrowserModule,
