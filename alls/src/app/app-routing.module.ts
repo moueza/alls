@@ -26,6 +26,9 @@ import { DiversComponent } from './divers/divers.component';
 
 import { SamsungComponent } from './samsung/samsung.component';
 
+import { NetworkAlarmComponent } from './network-alarm/network-alarm.component';
+
+
 
 
 const routes: Routes = [	{ path: '', component: IndexMoiComponent },
@@ -48,6 +51,7 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 
 				{ path: 'championnat-2020-2021-tennis-Nantes-OVS-Peter-MOUEZA', component: ChampionnatTennis2020a2021tmurComponent },
 
+	{ path: 'network-alarm', component: NetworkAlarmComponent },
 
 ];
 

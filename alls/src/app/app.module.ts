@@ -19,6 +19,7 @@ import { IndexMoiComponent } from './index-moi/index-moi.component';
 import { DiversComponent } from './divers/divers.component';
 import { SamsungComponent } from './samsung/samsung.component';
 import { KizombaNantesDanseMouezaPeterComponent } from './kizomba-nantes-danse-moueza-peter/kizomba-nantes-danse-moueza-peter.component';
+import { NetworkAlarmComponent } from './network-alarm/network-alarm.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -52,7 +53,10 @@ import { KizombaNantesDanseMouezaPeterComponent } from './kizomba-nantes-danse-m
     SamsungComponent,
     
    
-    KizombaNantesDanseMouezaPeterComponent
+    KizombaNantesDanseMouezaPeterComponent,
+    
+   
+    NetworkAlarmComponent
   ],
   imports: [
     BrowserModule,
