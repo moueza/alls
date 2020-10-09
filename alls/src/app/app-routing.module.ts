@@ -28,6 +28,9 @@ import { SamsungComponent } from './samsung/samsung.component';
 
 import { NetworkAlarmComponent } from './network-alarm/network-alarm.component';
 
+import { NewsComponent } from './news/news.component';
+import { News1Component } from './news1/news1.component';
+import { News2Component } from './news2/news2.component';
 
 
 
@@ -52,6 +55,11 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 				{ path: 'championnat-2020-2021-tennis-Nantes-OVS-Peter-MOUEZA', component: ChampionnatTennis2020a2021tmurComponent },
 
 	{ path: 'network-alarm', component: NetworkAlarmComponent },
+
+
+	{ path: 'news', component: NewsComponent },
+	{ path: 'news1', component: News1Component },
+	{ path: 'news2', component: News2Component },
 
 ];
 
