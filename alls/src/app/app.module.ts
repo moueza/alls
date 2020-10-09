@@ -20,6 +20,13 @@ import { DiversComponent } from './divers/divers.component';
 import { SamsungComponent } from './samsung/samsung.component';
 import { KizombaNantesDanseMouezaPeterComponent } from './kizomba-nantes-danse-moueza-peter/kizomba-nantes-danse-moueza-peter.component';
 import { NetworkAlarmComponent } from './network-alarm/network-alarm.component';
+import { NewsComponent } from './news/news.component';
+import { News1Component } from './news1/news1.component';
+import { News2Component } from './news2/news2.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { MenuLeftComponent } from './menu-left/menu-left.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -56,7 +63,28 @@ import { NetworkAlarmComponent } from './network-alarm/network-alarm.component';
     KizombaNantesDanseMouezaPeterComponent,
     
    
-    NetworkAlarmComponent
+    NetworkAlarmComponent,
+    
+   
+    NewsComponent,
+    
+   
+    News1Component,
+    
+   
+    News2Component,
+    
+   
+    HeaderComponent,
+    
+   
+    FooterComponent,
+    
+   
+    MenuLeftComponent,
+    
+   
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,
