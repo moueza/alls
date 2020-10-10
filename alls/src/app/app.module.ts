@@ -27,6 +27,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuLeftComponent } from './menu-left/menu-left.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { NewsFormComponent } from './news-form/news-form.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -84,7 +85,10 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
     MenuLeftComponent,
     
    
-    BreadcrumbComponent
+    BreadcrumbComponent,
+    
+   
+    NewsFormComponent
   ],
   imports: [
     BrowserModule,
