@@ -28,6 +28,8 @@ import { FooterComponent } from './footer/footer.component';
 import { MenuLeftComponent } from './menu-left/menu-left.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { NewsFormComponent } from './news-form/news-form.component';
+import { CobolComponent } from './cobol/cobol.component';
+import { AngularComponent } from './angular/angular.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -88,7 +90,13 @@ import { NewsFormComponent } from './news-form/news-form.component';
     BreadcrumbComponent,
     
    
-    NewsFormComponent
+    NewsFormComponent,
+    
+   
+    CobolComponent,
+    
+   
+    AngularComponent
   ],
   imports: [
     BrowserModule,

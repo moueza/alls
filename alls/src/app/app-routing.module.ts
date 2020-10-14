@@ -33,38 +33,48 @@ import { News1Component } from './news1/news1.component';
 import { News2Component } from './news2/news2.component';
 
 
+import { AngularComponent } from './angular/angular.component';
+import { CobolComponent } from './cobol/cobol.component';
+
+
 
 const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 				
-			{ path: 'peinturemurale', component: PeintureMuraleMouezaPeterImageComponent },
+				{ path: 'peinturemurale', component: PeintureMuraleMouezaPeterImageComponent },
 
-			{ path: 'pitchDentretien', component: PitchDEntretienPoleEmploiVSIMouezaComponent },
+				{ path: 'pitchDentretien', component: PitchDEntretienPoleEmploiVSIMouezaComponent },
 
-			{ path: 'star', component: MethodeStarPdfPoleEmploiVSIMouezaPeterComponent },
+				{ path: 'star', component: MethodeStarPdfPoleEmploiVSIMouezaPeterComponent },
 
-			{ path: 'tennisLe20200816', component: TennisTournoiLe20200816dtcTmurComponent },
-			{ path: 'tennisLe20200920', component: TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent },
+				{ path: 'tennisLe20200816', component: TennisTournoiLe20200816dtcTmurComponent },
+				{ path: 'tennisLe20200920', component: TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent },
 
-			{ path: 'arbitrage', component: ArbitrageComponent },
+				{ path: 'arbitrage', component: ArbitrageComponent },
 			
 				{ path: 'journal', component: JournalPublicComponent },
-					{ path: 'misc', component: DiversComponent },
+				{ path: 'misc', component: DiversComponent },
 
-					{ path: 'samsung', component: SamsungComponent },
+				{ path: 'samsung', component: SamsungComponent },
 
 				{ path: 'championnat-2020-2021-tennis-Nantes-OVS-Peter-MOUEZA', component: ChampionnatTennis2020a2021tmurComponent },
 
-	{ path: 'network-alarm', component: NetworkAlarmComponent },
+				{ path: 'network-alarm', component: NetworkAlarmComponent },
 
 
-	{ path: 'news', component: NewsComponent },
-	{ path: 'news1', component: News1Component },
-	{ path: 'news2', component: News2Component },
+				{ path: 'news', component: NewsComponent },
+				{ path: 'news1', component: News1Component },
+				{ path: 'news2', component: News2Component },
 
-];
+
+
+
+				{ path: 'angular', component: AngularComponent },
+				{ path: 'cobol', component: CobolComponent },
+
+				];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
+      exports: [RouterModule]
+      })
 export class AppRoutingModule { }
