@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CobolComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    console.log('\ncobol');
+  }
 
   ngOnInit(): void {
   }
