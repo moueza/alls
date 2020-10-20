@@ -13,7 +13,7 @@ export class JavascriptAnimComponent implements OnInit {
   }
 
 
-javascript-anim(){
+javascriptAnim(){
 }
 
 }
