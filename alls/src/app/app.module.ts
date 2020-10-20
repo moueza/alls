@@ -30,6 +30,7 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { NewsFormComponent } from './news-form/news-form.component';
 import { CobolComponent } from './cobol/cobol.component';
 import { AngularComponent } from './angular/angular.component';
+import { JavascriptAnimComponent } from './javascript-anim/javascript-anim.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -96,7 +97,10 @@ import { AngularComponent } from './angular/angular.component';
     CobolComponent,
     
    
-    AngularComponent
+    AngularComponent,
+    
+   
+    JavascriptAnimComponent
   ],
   imports: [
     BrowserModule,

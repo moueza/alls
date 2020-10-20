@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiversComponent } from './divers.component';
+import { JavascriptAnimComponent } from './javascript-anim.component';
 
-describe('DiversComponent', () => {
-  let component: DiversComponent;
-  let fixture: ComponentFixture<DiversComponent>;
+describe('JavascriptAnimComponent', () => {
+  let component: JavascriptAnimComponent;
+  let fixture: ComponentFixture<JavascriptAnimComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DiversComponent ]
+      declarations: [ JavascriptAnimComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DiversComponent);
+    fixture = TestBed.createComponent(JavascriptAnimComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
