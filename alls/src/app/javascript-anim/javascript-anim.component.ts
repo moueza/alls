@@ -11,6 +11,15 @@ import * as JavAnim from  './javascript-anim';
 export class JavascriptAnimComponent implements OnInit {
   constructor() {
     //window.canvas
+
+    //https://www.w3schools.com/html/html5_canvas.asp
+    //https://stackoverflow.com/questions/58218597/property-getcontext-does-not-exist-on-type-htmlelement/58218739
+    var c =  <HTMLCanvasElement>  document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+
   }
 
   ngOnInit(): void {}

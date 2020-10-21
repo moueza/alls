@@ -36,10 +36,12 @@ import { News2Component } from './news2/news2.component';
 import { AngularComponent } from './angular/angular.component';
 import { CobolComponent } from './cobol/cobol.component';
 
+import { JavascriptAnimComponent } from './javascript-anim/javascript-anim.component';
+
 
 
 const routes: Routes = [	{ path: '', component: IndexMoiComponent },
-				
+
 				{ path: 'peinturemurale', component: PeintureMuraleMouezaPeterImageComponent },
 
 				{ path: 'pitchDentretien', component: PitchDEntretienPoleEmploiVSIMouezaComponent },
@@ -50,7 +52,7 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 				{ path: 'tennisLe20200920', component: TennisTournoiLe20200920dtcTmurDTCnantesMOUEZAComponent },
 
 				{ path: 'arbitrage', component: ArbitrageComponent },
-			
+
 				{ path: 'journal', component: JournalPublicComponent },
 				{ path: 'misc', component: DiversComponent },
 
@@ -70,6 +72,8 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 
 				{ path: 'angular', component: AngularComponent },
 				{ path: 'cobol', component: CobolComponent },
+
+        { path: 'jsa', component: JavascriptAnimComponent },
 
 				];
 

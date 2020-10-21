@@ -2,8 +2,6 @@
 var JavAnim = function () {
   p1, p2, p3, p4;
 
-  dirPerUnitVect1, dirPerUnitVect2, dirPerUnitVect3, dirPerUnitVect4;
-
   function JavascriptAnim() {
     htG.x = 0;
     htG.x = 0;
@@ -35,21 +33,41 @@ var JavAnim = function () {
   var myFather = new Person("John", "Doe", 50, "blue");
   var myMother = new Person("Sally", "Rally", 48, "green");
 
-  function PointMoi(pp1, pp2, pp3, pp4) {
+  /* function PointMoi(pp1, pp2, pp3, pp4) {
+    this.p1 = pp1;
+    this.p2 = pp2;
+    this.p3 = pp3;
+    this.p4 = pp4;
+  } */
+  function Quadrilatere(pp1, pp2, pp3, pp4) {
     this.p1 = pp1;
     this.p2 = pp2;
     this.p3 = pp3;
     this.p4 = pp4;
   }
 
-  function vectMoi(vect1,vect2,vect3,vect4){
-   this.dirPerUnitVect1=Vect
+  function Vect(xx, y) {
+    this.dirPerUnitVect1.x = xx;
+    this.dirPerUnitVect1.y = yy;
   }
+
+  function vectMoi(vect1, vect2, vect3, vect4) {
+    this.dirPerUnitVect1 = vect1;
+  }
+
+  var vector1 = new Vect(2, 3);
+  var vector2 = new Vect(5, 2);
+  var vector3 = new Vect(-2, 5);
+  var vector4 = new Vect(0, 9);
+
+  vectMoi(vector1,vector2,vector3,vector4);
 
   //'back...
   function unitUpdate(timeRelativeUnit) {
-    this.p1
+    this.p1;
   }
+
+  //TODO moduloByScreenLimit
 };
 
 module.exports = JavAnim;

@@ -31,6 +31,7 @@ import { NewsFormComponent } from './news-form/news-form.component';
 import { CobolComponent } from './cobol/cobol.component';
 import { AngularComponent } from './angular/angular.component';
 import { JavascriptAnimComponent } from './javascript-anim/javascript-anim.component';
+import { LicensesNightmareDiffsComponent } from './licenses-nightmare-diffs/licenses-nightmare-diffs.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -100,7 +101,10 @@ import { JavascriptAnimComponent } from './javascript-anim/javascript-anim.compo
     AngularComponent,
     
    
-    JavascriptAnimComponent
+    JavascriptAnimComponent,
+    
+   
+    LicensesNightmareDiffsComponent
   ],
   imports: [
     BrowserModule,
