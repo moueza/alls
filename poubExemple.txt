@@ -1,0 +1,5 @@
+A	alls/src/app/javascript-anim/index2.html
+A	alls/src/app/licenses-nightmare-diffs/licenses-nightmare-diffs.component.html
+A	alls/src/app/licenses-nightmare-diffs/licenses-nightmare-diffs.component.scss
+A	alls/src/app/licenses-nightmare-diffs/licenses-nightmare-diffs.component.spec.ts
+A	alls/src/app/licenses-nightmare-diffs/licenses-nightmare-diffs.component.ts
