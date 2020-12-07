@@ -32,6 +32,9 @@ import { CobolComponent } from './cobol/cobol.component';
 import { AngularComponent } from './angular/angular.component';
 import { JavascriptAnimComponent } from './javascript-anim/javascript-anim.component';
 import { LicensesNightmareDiffsComponent } from './licenses-nightmare-diffs/licenses-nightmare-diffs.component';
+import { GoogleBattleDevMouezaPeterComponent } from './google-battle-dev-moueza-peter/google-battle-dev-moueza-peter.component';
+import { InventionsMouezaPeterComponent } from './inventions-moueza-peter/inventions-moueza-peter.component';
+import { ImagesComponent } from './images/images.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -104,7 +107,16 @@ import { LicensesNightmareDiffsComponent } from './licenses-nightmare-diffs/lice
     JavascriptAnimComponent,
     
    
-    LicensesNightmareDiffsComponent
+    LicensesNightmareDiffsComponent,
+    
+   
+    GoogleBattleDevMouezaPeterComponent,
+    
+   
+    InventionsMouezaPeterComponent,
+    
+   
+    ImagesComponent
   ],
   imports: [
     BrowserModule,

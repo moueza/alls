@@ -28,6 +28,8 @@ import { SamsungComponent } from './samsung/samsung.component';
 
 import { NetworkAlarmComponent } from './network-alarm/network-alarm.component';
 
+
+
 import { NewsComponent } from './news/news.component';
 import { News1Component } from './news1/news1.component';
 import { News2Component } from './news2/news2.component';
@@ -38,6 +40,13 @@ import { CobolComponent } from './cobol/cobol.component';
 
 import { JavascriptAnimComponent } from './javascript-anim/javascript-anim.component';
 
+
+import { InventionsMouezaPeterComponent  } from './inventions-moueza-peter/inventions-moueza-peter.component';
+
+import { GoogleBattleDevMouezaPeterComponent } from './google-battle-dev-moueza-peter/google-battle-dev-moueza-peter.component';
+
+
+import { ImagesComponent } from './images/images.component';
 
 
 const routes: Routes = [	{ path: '', component: IndexMoiComponent },
@@ -74,7 +83,17 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 				{ path: 'cobol', component: CobolComponent },
 
         { path: 'jsa', component: JavascriptAnimComponent },
+	{ path: 'concours-Google-battle-dev-moueza-peter', component: GoogleBattleDevMouezaPeterComponent  },
+				{ path: 'inventions-moueza-peter', component: InventionsMouezaPeterComponent },
 
+					{ path: 'images-moueza-peter', component: ImagesComponent },
+
+
+
+
+
+
+				
 				];
 
 @NgModule({
