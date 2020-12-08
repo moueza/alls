@@ -35,6 +35,7 @@ import { LicensesNightmareDiffsComponent } from './licenses-nightmare-diffs/lice
 import { GoogleBattleDevMouezaPeterComponent } from './google-battle-dev-moueza-peter/google-battle-dev-moueza-peter.component';
 import { InventionsMouezaPeterComponent } from './inventions-moueza-peter/inventions-moueza-peter.component';
 import { ImagesComponent } from './images/images.component';
+import { ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent } from './arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter/arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -116,7 +117,10 @@ import { ImagesComponent } from './images/images.component';
     InventionsMouezaPeterComponent,
     
    
-    ImagesComponent
+    ImagesComponent,
+    
+   
+    ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent
   ],
   imports: [
     BrowserModule,

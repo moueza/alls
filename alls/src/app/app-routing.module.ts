@@ -49,6 +49,8 @@ import { GoogleBattleDevMouezaPeterComponent } from './google-battle-dev-moueza-
 import { ImagesComponent } from './images/images.component';
 
 
+import { ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent } from './arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter/arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter.component';
+
 const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 
 				{ path: 'peinturemurale', component: PeintureMuraleMouezaPeterImageComponent },
@@ -87,6 +89,8 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 				{ path: 'inventions-moueza-peter', component: InventionsMouezaPeterComponent },
 
 					{ path: 'images-moueza-peter', component: ImagesComponent },
+
+					{ path: 'app-arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter', component: ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent },
 
 
 
