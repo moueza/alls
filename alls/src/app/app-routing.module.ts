@@ -90,9 +90,8 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 
 					{ path: 'images-moueza-peter', component: ImagesComponent },
 
-					{ path: 'app-arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter', component: ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent },
 
-
+	{ path: 'arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter', component: ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent },
 
 
 
