@@ -36,6 +36,7 @@ import { GoogleBattleDevMouezaPeterComponent } from './google-battle-dev-moueza-
 import { InventionsMouezaPeterComponent } from './inventions-moueza-peter/inventions-moueza-peter.component';
 import { ImagesComponent } from './images/images.component';
 import { ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent } from './arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter/arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter.component';
+import { TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent } from './tags-entreprise-trafic-ador-et-semor-nantes-arts-graphiques-moueza-peter/tags-entreprise-trafic-ador-et-semor-nantes-arts-graphiques-moueza-peter.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -120,7 +121,10 @@ import { ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaP
     ImagesComponent,
     
    
-    ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent
+    ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent,
+    
+   
+    TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent
   ],
   imports: [
     BrowserModule,
