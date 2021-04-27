@@ -37,6 +37,7 @@ import { InventionsMouezaPeterComponent } from './inventions-moueza-peter/invent
 import { ImagesComponent } from './images/images.component';
 import { ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent } from './arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter/arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter.component';
 import { TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent } from './tags-entreprise-trafic-ador-et-semor-nantes-arts-graphiques-moueza-peter/tags-entreprise-trafic-ador-et-semor-nantes-arts-graphiques-moueza-peter.component';
+import { TennisDervallieresCreneauxComponent } from './tennis-dervallieres-creneaux/tennis-dervallieres-creneaux.component';
 
 
 //import {GoogleAnalyticsService} from '../google-analytics.service';
@@ -124,7 +125,10 @@ import { TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent
     ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent,
     
    
-    TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent
+    TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent,
+    
+   
+    TennisDervallieresCreneauxComponent
   ],
   imports: [
     BrowserModule,
