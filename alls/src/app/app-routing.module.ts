@@ -51,6 +51,11 @@ import { ImagesComponent } from './images/images.component';
 
 import { ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent } from './arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter/arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter.component';
 import { TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent } from './tags-entreprise-trafic-ador-et-semor-nantes-arts-graphiques-moueza-peter/tags-entreprise-trafic-ador-et-semor-nantes-arts-graphiques-moueza-peter.component';
+
+import { TennisDervallieresCreneauxComponent  } from './tennis-dervallieres-creneaux/tennis-dervallieres-creneaux.component';
+
+
+
 const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 
 				{ path: 'peinturemurale', component: PeintureMuraleMouezaPeterImageComponent },
@@ -94,6 +99,8 @@ const routes: Routes = [	{ path: '', component: IndexMoiComponent },
 	{ path: 'arbre-aux-herons-jardin-extraordinaire-jules-verne-carriere-misery-nantes-moueza-peter', component: ArbreAuxHeronsJardinExtraordinaireJulesVerneCarriereMiseryNantesMouezaPeterComponent },
 
 	{ path: 'tags-Entreprise-TRAFIC-Ador-et-semor-Nantes-arts-graphiques-moueza-peter', component: TagsEntrepriseTRAFICAdorEtSemorNantesArtsGraphiquesMouezaPeterComponent },
+
+  { path: 'tennis-Dervallieres-creneaux-Nantes-moueza-peter', component: TennisDervallieresCreneauxComponent },
 
 
 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68N7B5993L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-68N7B5993L');
+    </script>
+    <meta charset="UTF-8">
+
+
+    <h1>Vue</h1>
+    
+  </head>
+  <body>
+    <div id="app">
+
+      <h1>Ma première application Vue.js !</h1>
+      v02
+      <br>
+      {{ message }}
+      <p>J'ai hâte de créer des applications incroyables !</p>
+
+
+
+
+
+      <h1>VueMart</h1>
+
+      <h2>Panier</h2>
+      <ul>
+        <li>Pommes: {{ costOfApples }}€</li>
+        <li>Bananes: {{ costOfBananas }}€</li>
+        <li>Noix de coco: {{ costOfCoconuts }}€</li>
+      </ul>
+
+      <br>
+
+      <!-- Réaliser le calcul -->
+      Calcul : {{ (2 + 8) * 10 }}
+      <br>
+      <!-- Appeler des méthodes de string -->
+      {{ "alexia".toUpperCase() }}
+      <br>
+      <!-- Opérateurs ternaires -->
+      {{ 2 > 0 ? 'Deux est plus grand que zéro' : 'Vous ne verrez jamais cette phrase' }}
+
+      <div><a href="p1c2part6entrainezVous/">Entrainez-vous</a></div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+      const app = new Vue({
+          el: '#app',
+          data: {
+              message: 'Bonjour Openclassrooms clap',//String
+              answerToLife: 42,//number
+              groceries: ['pommes', 'bananes', 'noix de coco'],//Arrays
+              timeForFlunch: false,//Boolean
+              info: {//object
+                  topic: 'VueJS',
+                  length: 5
+              },
+
+              //TODO compute here
+              //costOfApples:2.5/20,
+              costOfApples: 2.5 / 20,
+
+              costOfBananas: 2,
+              costOfCoconuts: 1.5
+          }
+      })
+    </script>
+  </body>
+
+</html>
