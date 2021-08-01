@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--resout pb accents, etc-->
+    <meta charset="UTF-8" />
+
+
+
+
+</head>
+
+<body>
+    <div id="app">
+        <h1>VueMart</h1>
+
+        <h2>Panier</h2>
+        <ul>
+            <li>Pommes: {{ costOfApples }}€</li>
+            <li>Bananes: {{ costOfBananas }}€</li>
+            <li>Noix de coco: {{ costOfCoconuts }}€</li>
+        </ul>
+        <p>Total: {{ totalAmount }}€</p>
+
+        <h2>Horaires d'ouverture</h2>
+        <p>Dimanche: 10h - 16h</p>
+        <p>Du lundi au vendredi : 09h - 17h</p>
+        <p>Samedi : 09h30 - 18h00</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script>
+        const app = new Vue({
+            el: '#app',
+            data: {
+                costOfApples: 6,
+                costOfBananas: 2,
+                costOfCoconuts: 8
+            },
+            computed: {
+                totalAmount() {
+                    return this.costOfApples + this.costOfBananas + this.costOfCoconuts
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
